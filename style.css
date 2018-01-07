@@ -1,0 +1,120 @@
+body {
+   position: absolute;
+}
+
+#header {
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 15px; 
+}
+
+#victory_declaration {
+    margin-top: 30%;
+}
+
+#container {
+    padding: 10px;
+    text-align: center;
+}
+
+#gameon {
+    display: none;
+    text-align: center;
+}
+
+#gamewon {
+    display: none;
+    margin: 0 auto;
+}
+
+table {
+    border-spacing: 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+    transform: translateX(40px)
+}
+
+tr, td {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+
+.active_cell {
+    background-image: url("blackcell.jpg");
+    color: #ffffff;
+}
+
+.inactive_cell {
+    background-image: url("blackcell.jpg");
+    background-position: center;
+    color: #000000;
+}
+
+.empty {
+    border: 0px;
+    width: 15px;
+    height: 15px;
+}
+
+.empty2 {
+    border: 0px;
+    width: 1px;
+    height: 2px;
+}
+
+.count {
+    background: #802717;
+    color: #ffffff;
+}
+
+.target {
+    background: #3F5E50;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Encode Sans Expanded', sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #802717;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+
+button {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+#replay {
+    margin-top: 20%;
+    margin-bottom: 50%;
+}
+
+#footer {
+    position: relative;
+    border-top: 1px solid #000000;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.footertext {
+    font-style: italic;
+    font-size: 10px;
+}
